@@ -8,19 +8,23 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  
 }
 nav ul{
   display: flex;
   justify-content: center;
-  
+
 
 }
-nav ul li{
-
+nav ul a li{
+  text-decoration: none;
   list-style: none;
   margin: 0 23px;
   font-weight: bold;
+}
+nav ul a li:hover{
+  text-decoration: none;
+  color: lavender;
 }
 .Left{
   font-size: 2rem;
@@ -32,6 +36,7 @@ nav ul li{
   margin-left: 150px;
   margin-top: 100px;
   font-size: xx-large;
+  
   /* background-color: red; */
   /* width: 300px; */
  
@@ -43,4 +48,36 @@ nav ul li{
   margin-top: -400px;
   border-radius:  50%;
   background-color: rgb(30, 0, 255);
+}
+hr{
+  margin: 30px;
+  margin-top: 150px;
+  
+}
+.Past_Experience{
+  margin-left: 30px;
+  color: gray;
+ font-style: italic;
+ 
+}
+.Work{
+  margin-left: 30px;
+  margin-top: -10px;
+  text-decoration: solid black;
+ 
+}
+.explanation{
+  width: 800px;
+  height: 50px;
+  display: grid;
+  margin-top: -15px;
+  margin-left: 30px;
+  gap: none ;
+
+
+}
+.About_Academic hr{
+  margin: 60px;
+  margin-top: 8px;
+  colo
 }
